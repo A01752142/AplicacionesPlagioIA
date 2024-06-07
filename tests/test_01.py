@@ -2,7 +2,6 @@ import unittest
 import os
 import tempfile
 from unittest.mock import patch
-from sklearn.feature_extraction.text import TfidfVectorizer
 import scipy.sparse
 from sklearn.svm import SVC
 from sklearn.metrics import roc_auc_score, recall_score, f1_score
@@ -14,10 +13,7 @@ from preprocesamientoIA import (
     docs_sospechosos,
     caracteristicas_textos,
     train_model,
-    calculate_metrics,
-    matriz_confusion,
-    roc_curve,
-    detectar_plagio
+    calculate_metrics
 )
 
 class TestPlagiarismDetection(unittest.TestCase):
