@@ -71,11 +71,11 @@ def train_model(caracteristicas_originales, caracteristicas_sospechosos):
     num_originals = caracteristicas_originales.shape[0]
     num_copies = caracteristicas_sospechosos.shape[0]
     etiquetas = [0] * num_originals + [1] * num_copies
-    X_train, X_test, y_train, y_test = train_test_split(matriz_caracteristicas, etiquetas, test_size=0.26, random_state=23)  #se modifico .25 a .4
+    X_train, X_test, y_train, y_test = train_test_split(matriz_caracteristicas, etiquetas, test_size=0.26, random_state=23) 
     model = SVC(kernel='linear', probability=True)
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
-    y_puntajes = model.decision_function(X_test)  # Get decision scores for ROC
+    y_puntajes = model.decision_function(X_test)  
     return model, y_test, y_pred, y_puntajes
 
 def calculate_metrics(y_test, y_pred, y_puntajes):
