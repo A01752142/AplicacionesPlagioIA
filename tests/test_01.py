@@ -17,7 +17,18 @@ from preprocesamientoIA import (
 )
 
 class TestPlagiarismDetection(unittest.TestCase):
-
+    """
+    Clase de pruebas unitarias para las funciones del módulo preprocesamiento.
+    
+    Esta clase realiza pruebas sobre las siguientes funciones: 
+    - docs_originales: Carga los documentos originales desde un directorio dado.
+    - docs_sospechosos: Carga los documentos sospechosos desde un directorio dado.
+    - caracteristicas_textos: Extrae características de los textos proporcionados.
+    - train_model: Entrena un modelo de clasificación para detectar plagio.
+    - calculate_metrics: Calcula las métricas de rendimiento del modelo.
+    - detectar_plagio: Utiliza el modelo entrenado para detectar plagio en textos sospechosos.
+    """
+    
     def setUp(self):
         """
         Configuración de archivos temporales y directorios para pruebas.
