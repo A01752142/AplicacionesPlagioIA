@@ -1,7 +1,5 @@
 # AplicacionesPlagioIA
 
-# AplicacionesPlagio
-
 # Autores
 -   A01752142  Sandra Ximena Téllez Olvera
 -   A01749164  Jeovani Hernandez Bastida
@@ -26,16 +24,24 @@ El proyecto integra pruebas unitarias para cada función principal, asegurando q
 Debe de tener en cuenta que debe encontrarse en la carpeta AplicacionesPlagio como se muestra a continuación
 C:\Users\jeova\OneDrive\Escritorio\AplicacionesPlagioIA> 
 
+![image](https://github.com/A01752142/AplicacionesPlagioIA/assets/65176372/7939b2c9-a06a-4cd7-a054-f6a471aac837)
+
 # Instalación de Dependencias
 Para ejecutar el programa debe tener en cuenta que debe tener instalado las siguientes dependencias
 - os
-- string
-- re
 - nltk
+- sklearn
+- pandas
+- time
+- scipy.sparse
+- matplotlib
+- numpy
+- tempfile
 - unittest
+- openpyxl
 
 Para instalar cualquier dependencia solo debes realizar lo siguiente en la consola:
 
 `pip install os`
 
-`pip install string`
+`pip install pandas`
