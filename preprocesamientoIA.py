@@ -71,7 +71,7 @@ def train_model(caracteristicas_originales, caracteristicas_sospechosos):
     num_originals = caracteristicas_originales.shape[0]
     num_copies = caracteristicas_sospechosos.shape[0]
     etiquetas = [0] * num_originals + [1] * num_copies
-    X_train, X_test, y_train, y_test = train_test_split(matriz_caracteristicas, etiquetas, test_size=0.28, random_state=42)  #se modifico .25 a .4
+    X_train, X_test, y_train, y_test = train_test_split(matriz_caracteristicas, etiquetas, test_size=0.26, random_state=23)  #se modifico .25 a .4
     model = SVC(kernel='linear', probability=True)
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
@@ -188,7 +188,7 @@ def main():
             
         # Ordenar los resultados por porcentaje de similitud y seleccionar los cinco primeros
         plagio_resultado_copia.sort(key=lambda x: x[3], reverse=True)
-        top_5_results = plagio_resultado_copia[:5]
+        top_5_results = plagio_resultado_copia[:2]
         plagiarism_results.append((nombre_sospechoso, top_5_results))
         temp_df = pd.DataFrame({
         'nombre_original': [res[0] for res in top_5_results],

@@ -1,110 +1,50 @@
 
 ************* Archivo copia: FID-001.txt **************
+Archivo original: org-070.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 39.26%
+------------------------------------------
 Archivo original: org-073.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
 Porcentaje de plagio: 31.46%
 ------------------------------------------
-Archivo original: org-056.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.97%
-------------------------------------------
-Archivo original: org-079.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.91%
-------------------------------------------
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.82%
-------------------------------------------
-Archivo original: org-047.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.58%
-------------------------------------------
 
 ************* Archivo copia: FID-002.txt **************
-Archivo original: org-073.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.58%
+Archivo original: org-001.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-079.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.91%
-------------------------------------------
-Archivo original: org-056.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.05%
-------------------------------------------
-Archivo original: org-047.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.01%
-------------------------------------------
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 28.82%
+Archivo original: org-002.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
 ------------------------------------------
 
 ************* Archivo copia: FID-003.txt **************
-Archivo original: org-056.txt
+Archivo original: org-070.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.72%
+Porcentaje de plagio: 39.18%
 ------------------------------------------
-Archivo original: org-079.txt
+Archivo original: org-065.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.66%
-------------------------------------------
-Archivo original: org-073.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.5%
-------------------------------------------
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.95%
-------------------------------------------
-Archivo original: org-022.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.71%
+Porcentaje de plagio: 32.48%
 ------------------------------------------
 
 ************* Archivo copia: FID-004.txt **************
-Archivo original: org-073.txt
+Archivo original: org-070.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.32%
+Porcentaje de plagio: 37.96%
 ------------------------------------------
-Archivo original: org-079.txt
+Archivo original: org-065.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.99%
-------------------------------------------
-Archivo original: org-056.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.75%
-------------------------------------------
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.58%
-------------------------------------------
-Archivo original: org-047.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.41%
+Porcentaje de plagio: 31.23%
 ------------------------------------------
 
 ************* Archivo copia: FID-005.txt **************
@@ -118,74 +58,29 @@ Archivo original: org-002.txt
 Tipo de plagio: None
 Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-004.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-005.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
 
 ************* Archivo copia: FID-006.txt **************
+Archivo original: org-070.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 39.55%
+------------------------------------------
 Archivo original: org-095.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
 Porcentaje de plagio: 31.21%
 ------------------------------------------
-Archivo original: org-056.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.19%
-------------------------------------------
-Archivo original: org-073.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.68%
-------------------------------------------
-Archivo original: org-079.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.51%
-------------------------------------------
-Archivo original: org-047.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.71%
-------------------------------------------
 
 ************* Archivo copia: FID-007.txt **************
-Archivo original: org-001.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
+Archivo original: org-070.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 35.77%
 ------------------------------------------
-Archivo original: org-002.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-004.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-005.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
+Archivo original: org-053.txt
+¿Es plagio?: Si
+Tipo de plagio: Insertar o reemplazar frases
+Porcentaje de plagio: 34.19%
 ------------------------------------------
 
 ************* Archivo copia: FID-008.txt **************
@@ -199,47 +94,17 @@ Archivo original: org-002.txt
 Tipo de plagio: None
 Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-004.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-005.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
 
 ************* Archivo copia: FID-009.txt **************
+Archivo original: org-070.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 35.06%
+------------------------------------------
 Archivo original: org-053.txt
 ¿Es plagio?: Si
 Tipo de plagio: Insertar o reemplazar frases
 Porcentaje de plagio: 31.68%
-------------------------------------------
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.98%
-------------------------------------------
-Archivo original: org-073.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.42%
-------------------------------------------
-Archivo original: org-079.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.35%
-------------------------------------------
-Archivo original: org-056.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 28.75%
 ------------------------------------------
 
 ************* Archivo copia: FID-010.txt **************
@@ -253,23 +118,20 @@ Archivo original: org-002.txt
 Tipo de plagio: None
 Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-004.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-005.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
 
 ************* Archivo copia: FID-011.txt **************
+Archivo original: org-070.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 42.61%
+------------------------------------------
+Archivo original: org-022.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 38.66%
+------------------------------------------
+
+************* Archivo copia: FID-012.txt **************
 Archivo original: org-001.txt
 ¿Es plagio?: No
 Tipo de plagio: None
@@ -280,77 +142,32 @@ Archivo original: org-002.txt
 Tipo de plagio: None
 Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-004.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-005.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-
-************* Archivo copia: FID-012.txt **************
-Archivo original: org-056.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.82%
-------------------------------------------
-Archivo original: org-079.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.52%
-------------------------------------------
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.48%
-------------------------------------------
-Archivo original: org-073.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.81%
-------------------------------------------
-Archivo original: org-047.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.81%
-------------------------------------------
 
 ************* Archivo copia: FID-013.txt **************
+Archivo original: org-070.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 36.9%
+------------------------------------------
 Archivo original: org-053.txt
 ¿Es plagio?: Si
 Tipo de plagio: Insertar o reemplazar frases
 Porcentaje de plagio: 32.48%
 ------------------------------------------
-Archivo original: org-073.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.28%
-------------------------------------------
-Archivo original: org-079.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.05%
-------------------------------------------
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.75%
-------------------------------------------
-Archivo original: org-056.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.55%
-------------------------------------------
 
 ************* Archivo copia: FID-014.txt **************
+Archivo original: org-019.txt
+¿Es plagio?: Si
+Tipo de plagio: Insertar o reemplazar frases
+Porcentaje de plagio: 79.41%
+------------------------------------------
+Archivo original: org-011.txt
+¿Es plagio?: Si
+Tipo de plagio: Insertar o reemplazar frases
+Porcentaje de plagio: 49.6%
+------------------------------------------
+
+************* Archivo copia: FID-015.txt **************
 Archivo original: org-001.txt
 ¿Es plagio?: No
 Tipo de plagio: None
@@ -360,48 +177,6 @@ Archivo original: org-002.txt
 ¿Es plagio?: No
 Tipo de plagio: None
 Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-004.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-005.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-
-************* Archivo copia: FID-015.txt **************
-Archivo original: org-022.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 32.49%
-------------------------------------------
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.47%
-------------------------------------------
-Archivo original: org-056.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.92%
-------------------------------------------
-Archivo original: org-043.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.32%
-------------------------------------------
-Archivo original: org-001.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 28.84%
 ------------------------------------------
 
 ************* Archivo copia: FID-016.txt **************
@@ -415,47 +190,17 @@ Archivo original: org-002.txt
 Tipo de plagio: None
 Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-004.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-005.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
 
 ************* Archivo copia: FID-017.txt **************
-Archivo original: org-095.txt
+Archivo original: org-062.txt
 ¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.47%
+Tipo de plagio: Parafraseo
+Porcentaje de plagio: 100.0%
 ------------------------------------------
-Archivo original: org-022.txt
+Archivo original: org-070.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.1%
-------------------------------------------
-Archivo original: org-001.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.09%
-------------------------------------------
-Archivo original: org-056.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 28.86%
-------------------------------------------
-Archivo original: org-073.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 28.59%
+Porcentaje de plagio: 35.56%
 ------------------------------------------
 
 ************* Archivo copia: FID-018.txt **************
@@ -469,317 +214,137 @@ Archivo original: org-002.txt
 Tipo de plagio: None
 Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-004.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-005.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
 
 ************* Archivo copia: FID-019.txt **************
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.24%
-------------------------------------------
-Archivo original: org-010.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 29.06%
-------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 28.23%
-------------------------------------------
-Archivo original: org-056.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 28.06%
-------------------------------------------
 Archivo original: org-001.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 27.89%
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
+------------------------------------------
+Archivo original: org-002.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
 ------------------------------------------
 
 ************* Archivo copia: FID-020.txt **************
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.24%
-------------------------------------------
-Archivo original: org-010.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 29.06%
-------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 28.23%
-------------------------------------------
-Archivo original: org-056.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 28.06%
-------------------------------------------
 Archivo original: org-001.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 27.89%
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
+------------------------------------------
+Archivo original: org-002.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
 ------------------------------------------
 
 ************* Archivo copia: FID-021.txt **************
-Archivo original: org-001.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
+Archivo original: org-070.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 40.51%
 ------------------------------------------
-Archivo original: org-002.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-004.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
-------------------------------------------
-Archivo original: org-005.txt
-¿Es plagio?: No
-Tipo de plagio: None
-Porcentaje de plagio: 0.0%
+Archivo original: org-065.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 31.47%
 ------------------------------------------
 
 ************* Archivo copia: FID-022.txt **************
-Archivo original: org-048.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 35.16%
+Archivo original: org-001.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-091.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 33.03%
-------------------------------------------
-Archivo original: org-045.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 32.11%
-------------------------------------------
-Archivo original: org-096.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 31.46%
-------------------------------------------
-Archivo original: org-053.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 31.19%
+Archivo original: org-002.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
 ------------------------------------------
 
 ************* Archivo copia: FID-023.txt **************
-Archivo original: org-071.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 39.47%
+Archivo original: org-001.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-072.txt
-¿Es plagio?: Si
-Tipo de plagio: Parafraseo
-Porcentaje de plagio: 35.35%
-------------------------------------------
-Archivo original: org-074.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 33.33%
-------------------------------------------
-Archivo original: org-006.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 31.58%
-------------------------------------------
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.58%
+Archivo original: org-002.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
 ------------------------------------------
 
 ************* Archivo copia: FID-024.txt **************
-Archivo original: org-071.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 42.17%
-------------------------------------------
-Archivo original: org-022.txt
+Archivo original: org-070.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 32.54%
-------------------------------------------
-Archivo original: org-072.txt
-¿Es plagio?: Si
-Tipo de plagio: Parafraseo
-Porcentaje de plagio: 31.3%
+Porcentaje de plagio: 34.5%
 ------------------------------------------
 Archivo original: org-095.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 30.1%
-------------------------------------------
-Archivo original: org-043.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.66%
+Porcentaje de plagio: 29.83%
 ------------------------------------------
 
 ************* Archivo copia: FID-025.txt **************
-Archivo original: org-057.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 40.3%
+Archivo original: org-001.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-048.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 38.81%
-------------------------------------------
-Archivo original: org-022.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 33.36%
-------------------------------------------
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.89%
-------------------------------------------
-Archivo original: org-079.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 27.95%
+Archivo original: org-002.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
 ------------------------------------------
 
 ************* Archivo copia: FID-026.txt **************
-Archivo original: org-048.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 38.24%
-------------------------------------------
-Archivo original: org-057.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 35.29%
-------------------------------------------
-Archivo original: org-095.txt
+Archivo original: org-070.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.12%
+Porcentaje de plagio: 40.26%
 ------------------------------------------
-Archivo original: org-022.txt
+Archivo original: org-065.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 29.09%
-------------------------------------------
-Archivo original: org-079.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 28.61%
+Porcentaje de plagio: 32.35%
 ------------------------------------------
 
 ************* Archivo copia: FID-027.txt **************
-Archivo original: org-095.txt
+Archivo original: org-070.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.24%
+Porcentaje de plagio: 38.36%
 ------------------------------------------
-Archivo original: org-010.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 29.06%
-------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 28.23%
-------------------------------------------
-Archivo original: org-056.txt
+Archivo original: org-065.txt
 ¿Es plagio?: Si
 Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 28.06%
-------------------------------------------
-Archivo original: org-001.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 27.89%
+Porcentaje de plagio: 31.43%
 ------------------------------------------
 
 ************* Archivo copia: FID-028.txt **************
-Archivo original: org-095.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 31.24%
-------------------------------------------
-Archivo original: org-010.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 29.06%
-------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 28.23%
-------------------------------------------
-Archivo original: org-056.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 28.06%
-------------------------------------------
 Archivo original: org-001.txt
-¿Es plagio?: Si
-Tipo de plagio: Desordenar frases
-Porcentaje de plagio: 27.89%
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
+------------------------------------------
+Archivo original: org-002.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
 ------------------------------------------
 
 ************* Archivo copia: FID-029.txt **************
-Archivo original: org-001.txt
+Archivo original: org-070.txt
 ¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 100.0%
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 37.9%
 ------------------------------------------
-Archivo original: org-005.txt
+Archivo original: org-095.txt
 ¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 37.84%
-------------------------------------------
-Archivo original: org-003.txt
-¿Es plagio?: Si
-Tipo de plagio: Parafraseo
-Porcentaje de plagio: 34.88%
-------------------------------------------
-Archivo original: org-007.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 33.33%
-------------------------------------------
-Archivo original: org-002.txt
-¿Es plagio?: Si
-Tipo de plagio: Insertar o reemplazar frases
-Porcentaje de plagio: 32.43%
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 30.8%
 ------------------------------------------
 
 ************* Archivo copia: FID-030.txt **************
@@ -793,17 +358,122 @@ Archivo original: org-002.txt
 Tipo de plagio: None
 Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-003.txt
+
+************* Archivo copia: FID-031.txt **************
+Archivo original: org-070.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 36.06%
+------------------------------------------
+Archivo original: org-095.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 31.66%
+------------------------------------------
+
+************* Archivo copia: FID-032.txt **************
+Archivo original: org-070.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 36.99%
+------------------------------------------
+Archivo original: org-065.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 31.48%
+------------------------------------------
+
+************* Archivo copia: FID-033.txt **************
+Archivo original: org-001.txt
 ¿Es plagio?: No
 Tipo de plagio: None
 Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-004.txt
+Archivo original: org-002.txt
 ¿Es plagio?: No
 Tipo de plagio: None
 Porcentaje de plagio: 0.0%
 ------------------------------------------
-Archivo original: org-005.txt
+
+************* Archivo copia: FID-034.txt **************
+Archivo original: org-077.txt
+¿Es plagio?: Si
+Tipo de plagio: Insertar o reemplazar frases
+Porcentaje de plagio: 74.36%
+------------------------------------------
+Archivo original: org-070.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 38.35%
+------------------------------------------
+
+************* Archivo copia: FID-035.txt **************
+Archivo original: org-006.txt
+¿Es plagio?: Si
+Tipo de plagio: Insertar o reemplazar frases
+Porcentaje de plagio: 85.71%
+------------------------------------------
+Archivo original: org-070.txt
+¿Es plagio?: Si
+Tipo de plagio: Desordenar frases
+Porcentaje de plagio: 36.0%
+------------------------------------------
+
+************* Archivo copia: FID-036.txt **************
+Archivo original: org-001.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
+------------------------------------------
+Archivo original: org-002.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
+------------------------------------------
+
+************* Archivo copia: FID-037.txt **************
+Archivo original: org-001.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
+------------------------------------------
+Archivo original: org-002.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
+------------------------------------------
+
+************* Archivo copia: FID-038.txt **************
+Archivo original: org-001.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
+------------------------------------------
+Archivo original: org-002.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
+------------------------------------------
+
+************* Archivo copia: FID-039.txt **************
+Archivo original: org-001.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
+------------------------------------------
+Archivo original: org-002.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
+------------------------------------------
+
+************* Archivo copia: FID-040.txt **************
+Archivo original: org-001.txt
+¿Es plagio?: No
+Tipo de plagio: None
+Porcentaje de plagio: 0.0%
+------------------------------------------
+Archivo original: org-002.txt
 ¿Es plagio?: No
 Tipo de plagio: None
 Porcentaje de plagio: 0.0%

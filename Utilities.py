@@ -5,10 +5,11 @@
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-from nltk.stem import PorterStemmer, WordNetLemmatizer
+from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+# Descarga de datos necesarios para procesamiento de texto
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')

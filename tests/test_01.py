@@ -12,7 +12,6 @@ class TestPreprocesamiento(unittest.TestCase):
     Clase de pruebas unitarias para las funciones del módulo preprocesamiento.
     
     Esta clase realiza pruebas sobre las siguientes funciones:
-    
     - docs_originales: Carga los documentos originales desde un directorio dado.
     - docs_sospechosos: Carga los documentos sospechosos desde un directorio dado.
     - caracteristicas_textos: Extrae características de los textos proporcionados.
@@ -24,7 +23,6 @@ class TestPreprocesamiento(unittest.TestCase):
     def setUp(self):
         """
         Configura archivos temporales para las pruebas.
-        
         Esta función se ejecuta antes de cada prueba. Crea directorios temporales y archivos de texto
         para los documentos originales y sospechosos que se utilizarán en las pruebas.
         """
@@ -52,8 +50,7 @@ class TestPreprocesamiento(unittest.TestCase):
 
     def tearDown(self):
         """
-        Limpia los archivos temporales creados para las pruebas.
-        
+        Limpia los archivos temporales creados para las pruebas.   
         Esta función se ejecuta después de cada prueba para eliminar los directorios y archivos temporales.
         """
         # Limpiar archivos temporales
@@ -62,8 +59,7 @@ class TestPreprocesamiento(unittest.TestCase):
 
     def test_docs_originales(self):
         """
-        Prueba la función docs_originales.
-        
+        Prueba la función docs_originales.  
         Verifica que la función carga correctamente los documentos originales desde el directorio especificado.
         """
         resultado = docs_originales(self.original_dir.name)
@@ -72,8 +68,7 @@ class TestPreprocesamiento(unittest.TestCase):
 
     def test_docs_sospechosos(self):
         """
-        Prueba la función docs_sospechosos.
-        
+        Prueba la función docs_sospechosos.  
         Verifica que la función carga correctamente los documentos sospechosos desde el directorio especificado.
         """
         resultado = docs_sospechosos(self.suspicious_dir.name)
@@ -82,8 +77,7 @@ class TestPreprocesamiento(unittest.TestCase):
 
     def test_caracteristicas_textos(self):
         """
-        Prueba la función caracteristicas_textos.
-        
+        Prueba la función caracteristicas_textos. 
         Verifica que la función extrae correctamente las características de los textos proporcionados.
         """
         texts = [content for _, content in self.original_files.items()] + [content for _, content in self.suspicious_files.items()]
@@ -92,8 +86,7 @@ class TestPreprocesamiento(unittest.TestCase):
 
     def test_train_model(self):
         """
-        Prueba la función train_model.
-        
+        Prueba la función train_model.  
         Verifica que la función entrena correctamente un modelo de clasificación para detectar plagio.
         """
         texts = [content for _, content in self.original_files.items()] + [content for _, content in self.suspicious_files.items()]
@@ -108,8 +101,7 @@ class TestPreprocesamiento(unittest.TestCase):
 
     def test_calculate_metrics(self):
         """
-        Prueba la función calculate_metrics.
-        
+        Prueba la función calculate_metrics.  
         Verifica que la función calcula correctamente las métricas de rendimiento del modelo.
         """
         y_test = [0, 1, 0, 1]
@@ -122,8 +114,7 @@ class TestPreprocesamiento(unittest.TestCase):
 
     def test_detectar_plagio(self):
         """
-        Prueba la función detectar_plagio.
-        
+        Prueba la función detectar_plagio.  
         Verifica que la función utiliza el modelo entrenado para detectar plagio en los textos sospechosos.
         """
         texts = [content for _, content in self.original_files.items()] + [content for _, content in self.suspicious_files.items()]

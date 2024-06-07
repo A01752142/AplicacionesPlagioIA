@@ -15,14 +15,14 @@ def plagio_parafraseo(original_text, suspicious_text):
         original_text (str): Texto original.
         suspicious_text (str): Texto sospechoso de plagio.
     Returns:
-        tuple: Tipo de plagio ("Paraphrasing") y porcentaje de similitud si es mayor o igual al 30%, 
+        tuple: Tipo de plagio ("Parafraseo") y porcentaje de similitud si es mayor o igual al 30%, 
                de lo contrario None y 0.
     """
     processed_original = preprocess_text(original_text)
     processed_suspicious = preprocess_text(suspicious_text)
     similarity = similitud_coseno(processed_original, processed_suspicious)
     paraphrase_percentage = similarity * 100
-    if paraphrase_percentage >= 30:
+    if paraphrase_percentage >= 35:
         return "Parafraseo", paraphrase_percentage
     return None, 0
 
@@ -33,7 +33,7 @@ def plagio_desordenar_frases(original_text, suspicious_text):
         original_text (str): Texto original.
         suspicious_text (str): Texto sospechoso de plagio.
     Returns:
-        tuple: Tipo de plagio ("Sentence Shuffling") y porcentaje de similitud.
+        tuple: Tipo de plagio ("Desordenar frases") y porcentaje de similitud.
     """
     original_sentences = nltk.sent_tokenize(original_text)
     suspicious_sentences = nltk.sent_tokenize(suspicious_text)
@@ -49,7 +49,7 @@ def plagio_cambio_tiempo(original_text, suspicious_text):
         original_text (str): Texto original.
         suspicious_text (str): Texto sospechoso de plagio.
     Returns:
-        tuple: Tipo de plagio ("Tense Change (Past)" o "Tense Change (Present)") y el mayor porcentaje de palabras 
+        tuple: Tipo de plagio ("Cambio de Tiempo (Pasado o Presente)") y el mayor porcentaje de palabras 
                en tiempo pasado o presente si la diferencia es mayor a 15%, de lo contrario None y 0.
     """
     past_tense_words = {'was', 'were', 'had', 'did'}
@@ -77,7 +77,7 @@ def plagio_cambio_voz(original_text, suspicious_text):
         original_text (str): Texto original.
         suspicious_text (str): Texto sospechoso de plagio.
     Returns:
-        tuple: Tipo de plagio ("Voice Change") y el mayor porcentaje de uso de pronombres si la diferencia es mayor a 20%, 
+        tuple: Tipo de plagio ("Cambio de voz") y el mayor porcentaje de uso de pronombres si la diferencia es mayor a 20%, 
                de lo contrario None y 0.
     """
     pronouns = {'i', 'you', 'he', 'she', 'it', 'we', 'they'}
