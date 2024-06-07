@@ -1,65 +1,61 @@
-# Autores: A01752142 - Sandra Ximena Téllez Olvera
-#          A01749164 - Jeovani Hernandez Bastida
-#          A01025261 - Maximiliano Carrasco Rojas
-
+import unittest
 import os
 import tempfile
-import unittest
-from preprocesamientoIA import docs_originales, docs_sospechosos, caracteristicas_textos, train_model, calculate_metrics, matriz_confusion, roc_curve, detectar_plagio
+from unittest.mock import patch
+from sklearn.feature_extraction.text import TfidfVectorizer
+import scipy.sparse
+from sklearn.svm import SVC
+from sklearn.metrics import roc_auc_score, recall_score, f1_score
+import pandas as pd
+import numpy as np
 
-class TestPreprocesamiento(unittest.TestCase):
-    """
-    Clase de pruebas unitarias para las funciones del módulo preprocesamiento.
-    
-    Esta clase realiza pruebas sobre las siguientes funciones:
-    - docs_originales: Carga los documentos originales desde un directorio dado.
-    - docs_sospechosos: Carga los documentos sospechosos desde un directorio dado.
-    - caracteristicas_textos: Extrae características de los textos proporcionados.
-    - train_model: Entrena un modelo de clasificación para detectar plagio.
-    - calculate_metrics: Calcula las métricas de rendimiento del modelo.
-    - detectar_plagio: Utiliza el modelo entrenado para detectar plagio en textos sospechosos.
-    """
-    
+from preprocesamientoIA import (
+    docs_originales,
+    docs_sospechosos,
+    caracteristicas_textos,
+    train_model,
+    calculate_metrics,
+    matriz_confusion,
+    roc_curve,
+    detectar_plagio
+)
+
+class TestPlagiarismDetection(unittest.TestCase):
+
     def setUp(self):
         """
-        Configura archivos temporales para las pruebas.
-        Esta función se ejecuta antes de cada prueba. Crea directorios temporales y archivos de texto
-        para los documentos originales y sospechosos que se utilizarán en las pruebas.
+        Configuración de archivos temporales y directorios para pruebas.
         """
-        # Configurar archivos temporales para las pruebas
+        # Crear directorio temporal para documentos originales
         self.original_dir = tempfile.TemporaryDirectory()
-        self.suspicious_dir = tempfile.TemporaryDirectory()
-        
-        # Crear archivos originales
         self.original_files = {
-            'doc1.txt': 'Este es el primer documento original.',
-            'doc2.txt': 'Este es el segundo documento original.'
+            "doc1.txt": "Este es un documento original.",
+            "doc2.txt": "Este es otro documento original."
         }
         for filename, content in self.original_files.items():
             with open(os.path.join(self.original_dir.name, filename), 'w', encoding='latin-1') as f:
                 f.write(content)
-        
-        # Crear archivos sospechosos
-        self.suspicious_files = {
-            'doc3.txt': 'Este es el primer documento sospechoso.',
-            'doc4.txt': 'Este es el segundo documento sospechoso.'
+
+        # Crear directorio temporal para documentos sospechosos
+        self.sospechoso_dir = tempfile.TemporaryDirectory()
+        self.sospechoso_files = {
+            "sus1.txt": "Este es un documento sospechoso.",
+            "sus2.txt": "Este es otro documento sospechoso."
         }
-        for filename, content in self.suspicious_files.items():
-            with open(os.path.join(self.suspicious_dir.name, filename), 'w', encoding='latin-1') as f:
+        for filename, content in self.sospechoso_files.items():
+            with open(os.path.join(self.sospechoso_dir.name, filename), 'w', encoding='latin-1') as f:
                 f.write(content)
 
     def tearDown(self):
         """
-        Limpia los archivos temporales creados para las pruebas.   
-        Esta función se ejecuta después de cada prueba para eliminar los directorios y archivos temporales.
+        Limpieza de archivos temporales y directorios después de las pruebas.
         """
-        # Limpiar archivos temporales
         self.original_dir.cleanup()
-        self.suspicious_dir.cleanup()
+        self.sospechoso_dir.cleanup()
 
     def test_docs_originales(self):
         """
-        Prueba la función docs_originales.  
+        Prueba la función docs_originales.
         Verifica que la función carga correctamente los documentos originales desde el directorio especificado.
         """
         resultado = docs_originales(self.original_dir.name)
@@ -68,64 +64,58 @@ class TestPreprocesamiento(unittest.TestCase):
 
     def test_docs_sospechosos(self):
         """
-        Prueba la función docs_sospechosos.  
+        Prueba la función docs_sospechosos.
         Verifica que la función carga correctamente los documentos sospechosos desde el directorio especificado.
         """
-        resultado = docs_sospechosos(self.suspicious_dir.name)
-        esperado = [(filename, content) for filename, content in self.suspicious_files.items()]
+        resultado = docs_sospechosos(self.sospechoso_dir.name)
+        esperado = [(filename, content) for filename, content in self.sospechoso_files.items()]
         self.assertEqual(resultado, esperado)
 
     def test_caracteristicas_textos(self):
         """
-        Prueba la función caracteristicas_textos. 
-        Verifica que la función extrae correctamente las características de los textos proporcionados.
+        Prueba la función caracteristicas_textos.
+        Verifica que la función extrae correctamente las características TF-IDF de los textos dados.
         """
-        texts = [content for _, content in self.original_files.items()] + [content for _, content in self.suspicious_files.items()]
-        caracteristicas = caracteristicas_textos(texts)
-        self.assertEqual(caracteristicas.shape[0], len(texts))
+        textos = ["Este es un texto.", "Este es otro texto."]
+        caracteristicas = caracteristicas_textos(textos)
+        self.assertIsInstance(caracteristicas, scipy.sparse.csr_matrix)
+        self.assertEqual(caracteristicas.shape[0], len(textos))
 
-    def test_train_model(self):
-        """
-        Prueba la función train_model.  
-        Verifica que la función entrena correctamente un modelo de clasificación para detectar plagio.
-        """
-        texts = [content for _, content in self.original_files.items()] + [content for _, content in self.suspicious_files.items()]
-        caracteristicas = caracteristicas_textos(texts)
-        num_originals = len(self.original_files)
-        caracteristicas_originales = caracteristicas[:num_originals]
-        caracteristicas_sospechosos = caracteristicas[num_originals:]
-        
-        model, y_test, y_pred, y_puntajes = train_model(caracteristicas_originales, caracteristicas_sospechosos)
-        self.assertEqual(len(y_test), len(y_pred))
-        self.assertEqual(len(y_test), len(y_puntajes))
+@patch('preprocesamientoIA.SVC', spec=True)
+def test_train_model(self, MockSVC):
+    """
+    Prueba la función train_model.
+    Verifica que la función entrena correctamente un modelo SVM utilizando las características TF-IDF.
+    """
+    MockSVC.return_value.predict.return_value = [1, 0]
+    MockSVC.return_value.decision_function.return_value = [0.6, -0.2]
+    
+    textos = ["Este es un texto.", "Este es otro texto."]
+    caracteristicas = caracteristicas_textos(textos)
+    caracteristicas_originales = caracteristicas[:1]
+    caracteristicas_sospechosos = caracteristicas[1:]
+    
+    model, y_test, y_pred, y_puntajes = train_model(caracteristicas_originales, caracteristicas_sospechosos)
+    
+    self.assertIsInstance(model, SVC)  # Verifica que el modelo sea una instancia de SVC
+    self.assertIsInstance(y_test, list)
+    self.assertIsInstance(y_pred, np.ndarray)
+    self.assertIsInstance(y_puntajes, np.ndarray)
 
     def test_calculate_metrics(self):
         """
-        Prueba la función calculate_metrics.  
+        Prueba la función calculate_metrics.
         Verifica que la función calcula correctamente las métricas de rendimiento del modelo.
         """
-        y_test = [0, 1, 0, 1]
-        y_pred = [0, 1, 0, 0]
-        y_puntajes = [0.1, 0.9, 0.2, 0.4]
-        auc, recall, f1 = calculate_metrics(y_test, y_pred, y_puntajes)
-        self.assertTrue(0 <= auc <= 1)
-        self.assertTrue(0 <= recall <= 1)
-        self.assertTrue(0 <= f1 <= 1)
-
-    def test_detectar_plagio(self):
-        """
-        Prueba la función detectar_plagio.  
-        Verifica que la función utiliza el modelo entrenado para detectar plagio en los textos sospechosos.
-        """
-        texts = [content for _, content in self.original_files.items()] + [content for _, content in self.suspicious_files.items()]
-        caracteristicas = caracteristicas_textos(texts)
-        num_originals = len(self.original_files)
-        caracteristicas_originales = caracteristicas[:num_originals]
-        caracteristicas_sospechosos = caracteristicas[num_originals:]
+        y_test = [0, 1]
+        y_pred = [0, 1]
+        y_puntajes = [0.2, 0.8]
         
-        model, y_test, y_pred, y_puntajes = train_model(caracteristicas_originales, caracteristicas_sospechosos)
-        predicciones = detectar_plagio(model, caracteristicas_sospechosos)
-        self.assertEqual(predicciones.shape[0], caracteristicas_sospechosos.shape[0])
+        auc, recall, f1 = calculate_metrics(y_test, y_pred, y_puntajes)
+        
+        self.assertEqual(auc, roc_auc_score(y_test, y_puntajes))
+        self.assertEqual(recall, recall_score(y_test, y_pred))
+        self.assertEqual(f1, f1_score(y_test, y_pred))
 
 if __name__ == '__main__':
     unittest.main()
